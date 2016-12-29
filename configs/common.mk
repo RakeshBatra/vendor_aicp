@@ -137,6 +137,23 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aicp/overlay/dictionaries
 # PRODUCT_COPY_FILES += \
 #    vendor/aicp/prebuilt/common/app/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk
 
+# Substratum
+PRODUCT_COPY_FILES += \
+    vendor/aicp/prebuilt/common/app/substratum.apk:system/app/substratum/substratum.apk
+
+# Pixel Launcher
+PRODUCT_COPY_FILES += \
+    vendor/aicp/prebuilt/common/app/PixelLauncherPrebuilt.apk:system/priv-app/PixelLauncher/PixelLauncherPrebuilt.apk \
+    vendor/aicp/prebuilt/common/app/WallpaperPickerGooglePrebuilt.apk:system/app/PixelLauncher/WallpaperPickerGooglePrebuilt.apk
+
+# Amaze File Manager
+PRODUCT_COPY_FILES += \
+    vendor/aicp/prebuilt/common/app/AmazeFileManager.apk:system/priv-app/AmazeFileManager/AmazeFileManager.apk
+
+# Data Shit
+PRODUCT_COPY_FILES += \
+    vendor/aicp/prebuilt/common/app/ltediscovery.apk:system/priv-app/LTEDiscovery/ltediscovery.apk
+
 # AdAway App
 # PRODUCT_COPY_FILES += \
     vendor/aicp/prebuilt/common/app/AdAway.apk:system/priv-app/AdAway/AdAway.apk
